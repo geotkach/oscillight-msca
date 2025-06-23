@@ -1,9 +1,21 @@
 main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
-  - title: "About"
-    url: /about/
+  - title: "People"
+    url: /people/
+
+  - title: "Presentations"
+    url: /presentations/
+
+  - title: "Research"
+    url: /research/
+    children:
+      - title: "Model"
+        url: /research/model/
+      - title: "Fabrication"
+        url: /research/fabrication/
+      - title: "Experiment"
+        url: /research/experiment/
+      - title: "Results"
+        url: /research/results/
+
+  - title: "Gallery"
+    url: /gallery/
