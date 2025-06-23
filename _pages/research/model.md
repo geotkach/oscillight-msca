@@ -3,8 +3,8 @@ title: "Model"
 parent: "Research"
 layout: single
 permalink: /research/model/
-nav_order: 1
+nav_exclude: true
 ---
 
 
-model info
+model info test
