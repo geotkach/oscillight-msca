@@ -2,6 +2,8 @@
 title: "Research"
 permalink: /research/
 layout: single
+has_children: true
+nav_order: 3
 ---
 
 ## Research Overview
