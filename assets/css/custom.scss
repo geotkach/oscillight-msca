@@ -1,0 +1,9 @@
+// assets/css/custom.scss
+
+// Import Minimal Mistakes default variables first
+@import "minimal-mistakes/variables";
+
+// Override font size
+body {
+  font-size: 12px; // or any size you want
+}
