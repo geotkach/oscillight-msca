@@ -5,8 +5,6 @@ layout: single
 has_children: true
 nav_exclude: true
 author_profile: false
-sidebar:
-  nav: "Model"
 ---
 
 ## Research Overview
