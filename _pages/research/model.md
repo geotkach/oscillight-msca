@@ -1,5 +1,5 @@
 ---
-title: "Model"
+title: "Model test"
 parent: "Research"
 permalink: /research/model/
 layout: single
@@ -14,11 +14,13 @@ layout: single
 }
 </style>
 
-# Model Overview
-
 This page describes the model used in the project...
-This is inline math: \( E = mc^2 \).
-separate
+
+test inline math: $E = mc^2$.
+
+test separate:
+
 $$  
 E = mc^2  
 $$
+
