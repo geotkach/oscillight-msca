@@ -6,7 +6,7 @@ author_profile: false
 ---
 
 <div style="display: flex; align-items: center; gap: 20px;">
-  <img src="/assets/images/Etienne-Brasselet.png" alt="Supervisor" width="120">
+  <img src="assets/images/Etienne-Brasselet.png" alt="Supervisor" width="120">
   <div>
     **Dr. Etienne Brasselet**  
     mailto:etienne.brasselet@u-bordeaux.fr  
