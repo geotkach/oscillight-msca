@@ -1,10 +1,10 @@
 ---
 title: "Model"
 parent: "Research"
-layout: single
 permalink: /research/model/
-nav_exclude: true
+layout: single
+classes: wide
 ---
 
 
-model info test
+model info here
