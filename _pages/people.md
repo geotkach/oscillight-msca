@@ -5,7 +5,8 @@ layout: single
 author_profile: false
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: flex-start;">
+ <!--<div style="display: flex; justify-content: space-between; align-items: flex-start;"> -->
+<div style="display: flex; justify-content: space-between; align-items: center;">
 
   <!-- Left side: person info and image -->
   <div style="display: flex; align-items: center; gap: 20px; margin-bottom: 1em;">
