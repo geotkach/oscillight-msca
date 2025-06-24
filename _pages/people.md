@@ -6,7 +6,7 @@ author_profile: false
 ---
 
 <div style="display: flex; align-items: center; gap: 20px; margin-bottom: 1em;">
-  <img src="{{ 'assets/images/Etienne-Brasselet.png.' | relative_url }}" alt="Supervisor" style="width: 120px; height: auto; border-radius: 8px;">
+  <img src="{{ 'assets/images/Etienne-Brasselet.png' | relative_url }}" alt="Supervisor" style="width: 120px; height: auto; border-radius: 8px;">
   <div>
     <strong>Dr. Etienne Brasselet</strong><br>
     <a href="mailto:etienne.brasselet@u-bordeaux.fr ">etienne.brasselet@u-bordeaux.fr </a><br>
