@@ -95,8 +95,9 @@ author:
 # footer_custom: footer_custom
 # footer:
 #   custom: footer_custom
-footer:
-  links: false
+
+# footer:
+#   links: false
 
 
 # collections:
