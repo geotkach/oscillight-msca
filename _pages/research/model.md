@@ -3,8 +3,8 @@ title: "Model"
 parent: "Research"
 permalink: /research/model/
 layout: single
-classes: wide
+classes: full
 ---
 
 
-model info here
+model info here v2
