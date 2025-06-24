@@ -88,7 +88,10 @@ author:
 #       icon: "fab fa-fw fa-instagram"
 #       url: "https://instagram.com/"
 
-footer_custom: footer_custom
+# footer_custom: footer_custom
+footer:
+  custom: "footer_custom"
+
 
 # collections:
 #   pages:
