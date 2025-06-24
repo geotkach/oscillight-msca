@@ -9,4 +9,10 @@ author_profile: true
 
 Test info
 
-![test info text](/assets/images/pend_bamboo.jpg)
+
+
+<p align="center">
+  <img src="/assets/images/pend_bamboo.jpg" alt="Description" width="50%">
+</p>
+
+
