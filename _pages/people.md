@@ -4,9 +4,37 @@ permalink: /people/
 layout: single
 author_profile: false
 ---
+<div style="display: flex; justify-content: space-between; align-items: flex-start;">
+
+  <!-- Left side: person info and image -->
+  <div style="display: flex;">
+    <img src="{{ 'assets/images/GT-lab.png' | relative_url }}" alt="Supervisor" style="width: 120px; height: auto; border-radius: 8px;">
+    <div>
+      <strong>Dr. Georgiy Tkachenko</strong><br>
+      MSCA research fellow<br>
+      Laboratoire Ondes et Matière d'Aquitaine<br>
+      Université de Bordeaux<br>
+      Talence, France<br>
+      <a href="mailto:georgiytkachenko@gmail.com ">georgiytkachenko@gmail.com </a><br>
+      <a href="https://scholar.google.co.uk/citations?user=WB9PHl4AAAAJ&hl=en">Google Scholar</a> · 
+      <a href="https://orcid.org/0000-0003-0958-2548">ORCID</a>
+    </div>
+  </div>
+
+  <!-- Right side: logos -->
+  <div style="display: flex; gap: 10px;">
+    <img src="{{ '/assets/images/msca-logo.png' | relative_url }}" alt="Logo 1" width="60">
+    <img src="{{ '/assets/images/UB-logo.png' | relative_url }}" alt="Logo 2" width="60">
+  </div>
+
+</div>
+
+
+
+
 
 <div style="display: flex; align-items: center; gap: 20px; margin-bottom: 1em;">
-  <img src="{{ 'assets/images/Etienne-Brasselet.png' | relative_url }}" alt="Supervisor" style="width: 120px; height: auto; border-radius: 8px;">
+  <img src="{{ 'assets/images/GT-lab.png' | relative_url }}" alt="Supervisor" style="width: 120px; height: auto; border-radius: 8px;">
   <div>
     <strong>Dr. Georgiy Tkachenko</strong><br>
     MSCA research fellow<br>
