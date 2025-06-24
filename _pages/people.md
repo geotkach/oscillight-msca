@@ -8,7 +8,7 @@ author_profile: false
 <div style="display: flex; justify-content: space-between; align-items: flex-start;">
 
   <!-- Left side: person info and image -->
-  <div style="display: flex;">
+  <div style="display: flex; align-items: center; gap: 20px; margin-bottom: 1em;">
     <img src="{{ 'assets/images/GT-lab.jpg' | relative_url }}" alt="Researcher" style="width: 120px; height: auto; border-radius: 8px;">
     <div>
       <strong>Dr. Georgiy Tkachenko</strong><br>
