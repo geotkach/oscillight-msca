@@ -93,9 +93,10 @@ author:
 #       url: "https://instagram.com/"
 
 # footer_custom: footer_custom
-footer:
-  custom: footer_custom
+# footer:
+#   custom: footer_custom
 
+footer.custom: true
 
 
 # collections:
