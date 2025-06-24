@@ -9,7 +9,7 @@ author_profile: false
 
   <!-- Left side: person info and image -->
   <div style="display: flex;">
-    <img src="{{ 'assets/images/GT-lab.jpg' | relative_url }}" alt="Researcher" style="width: auto; height: 200px; border-radius: 8px;">
+    <img src="{{ 'assets/images/GT-lab.jpg' | relative_url }}" alt="Researcher" style="width: 120px; height: auto; border-radius: 8px;">
     <div>
       <strong>Dr. Georgiy Tkachenko</strong><br>
       MSCA research fellow<br>
@@ -24,8 +24,8 @@ author_profile: false
 
   <!-- Right side: logos -->
   <div style="display: flex; gap: 10px;">
-    <img src="{{ '/assets/images/msca-logo.png' | relative_url }}" alt="Logo 1" style="width: auto; height: 150px">
-    <img src="{{ '/assets/images/UB-logo.png' | relative_url }}" alt="Logo 2" style="width: auto; height: 150px">
+    <img src="{{ '/assets/images/msca-logo.png' | relative_url }}" alt="Logo 1" style="width: auto; height: 60px">
+    <img src="{{ '/assets/images/UB-logo.png' | relative_url }}" alt="Logo 2" style="width: auto; height: 60px">
   </div>
 
 </div>
@@ -35,7 +35,7 @@ author_profile: false
 
 
 <div style="display: flex; align-items: center; gap: 20px; margin-bottom: 1em;">
-  <img src="{{ 'assets/images/GT-lab.jpg' | relative_url }}" alt="Researcher" style="width: auto; height: 200px; border-radius: 8px;">
+  <img src="{{ 'assets/images/GT-lab.jpg' | relative_url }}" alt="Researcher" style="width: 120px; height: auto; border-radius: 8px;">
   <div>
     <strong>Dr. Georgiy Tkachenko</strong><br>
     MSCA research fellow<br>
@@ -52,7 +52,7 @@ author_profile: false
 
 
 <div style="display: flex; align-items: center; gap: 20px; margin-bottom: 1em;">
-  <img src="{{ 'assets/images/Etienne-Brasselet.png' | relative_url }}" alt="Supervisor" style="width: auto; height: 200px; border-radius: 8px;">
+  <img src="{{ 'assets/images/Etienne-Brasselet.png' | relative_url }}" alt="Supervisor" style="width: 120px; height: auto; border-radius: 8px;">
   <div>
     <strong>Dr. Etienne Brasselet</strong><br>
     CNRS Research Director<br>
