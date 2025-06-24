@@ -10,7 +10,7 @@ author_profile: false
   <div>
     <strong>Dr. Etienne Brasselet</strong><br>
     CNRS Research Director<br>
-    LOMA - UMR 5798 CNRS<br>
+    Laboratoire Ondes et Matière d'Aquitaine<br>
     Université de Bordeaux<br>
     Talence, France<br>
     <a href="https://www.loma.cnrs.fr/thematique-singular/" target="_blank">SINGULAR group</a><br>
