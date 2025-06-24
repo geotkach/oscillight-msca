@@ -59,7 +59,8 @@ plugins:
 
 author:
   name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "assets/images/pump probe ell=-1.bmp"
+  # avatar : "/assets/images/bio-photo.jpg"
   bio    : "My awesome biography constrained to a sentence or two goes here."
   # links:
   #   - label: "Website"
