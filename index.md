@@ -12,8 +12,7 @@ Test info
 
 
 <div style="text-align: center;">
-  <img src="{{ '/assets/images/pend_bamboo.jpg' | relative_url }}" alt="Alt text" width="400">
+  <img src="{{ 'assets/images/pend_bamboo.jpg' | relative_url }}" alt="Alt text" width="400">
 </div>
-
 
 
