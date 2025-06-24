@@ -57,6 +57,10 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+# Optional: Disable feed
+atom_feed:
+  path: null
+
 author:
   name   : "First Lastname"
   avatar : "assets/images/pump probe ell=-1.bmp"
