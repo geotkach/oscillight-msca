@@ -118,6 +118,7 @@ defaults:
       layout: single
       classes: wide
       author_profile: false
+      css: "/assets/css/custom.css"
       read_time: false
       comments: false
       share: false
@@ -132,6 +133,7 @@ defaults:
       layout: single
       classes: wide
       author_profile: false
+      css: "/assets/css/custom.css"
 
 category_archive:
   type: liquid
