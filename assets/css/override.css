@@ -1,7 +1,6 @@
 body {
   font-size: 14px !important;
 }
-.site-footer {
+.page__footer {
   background-color: white !important;
-  color: #333; /* optional: make footer text dark for visibility */
 }
