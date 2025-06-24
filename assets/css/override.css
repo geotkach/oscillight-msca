@@ -3,4 +3,5 @@ body {
 }
 .page__footer {
   background-color: white !important;
+  margin-top: 1em !important;
 }
