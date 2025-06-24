@@ -5,3 +5,8 @@
 layout: single
 author_profile: true
 ---
+
+
+Test info
+
+![test info text](/assets/images/pend_bamboo.jpg)
