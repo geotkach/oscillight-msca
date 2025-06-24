@@ -3,8 +3,8 @@ title: "Research"
 permalink: /research/
 layout: single
 has_children: true
-nav_order: 3
 nav_exclude: true
+author_profile: false
 ---
 
 ## Research Overview
