@@ -2,20 +2,11 @@ main:
   - title: "People"
     url: /people/
 
-  - title: "Presentations"
-    url: /presentations/
+  - title: "Media"
+    url: /media/
 
   - title: "Research"
     url: /research/
-    children:
-      - title: "Model"
-        url: /research/model/
-      - title: "Fabrication"
-        url: /research/fabrication/
-      - title: "Experiment"
-        url: /research/experiment/
-      - title: "Results"
-        url: /research/results/
-
+    
   - title: "Gallery"
     url: /gallery/
