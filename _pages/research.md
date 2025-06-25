@@ -5,6 +5,7 @@ layout: single
 author_profile: false
 toc: true
 toc_sticky: true
+math: true
 ---
 
 # <span style="display:none">Introduction</span>{: #intro}
@@ -20,7 +21,10 @@ Noteworthy, it is also possible to repeat the original Beth experiment on spin A
 
 
 # Model
-To establish the theoretical framework of this project, we consider the torsional pendulum schematically depicted in Fig.1. The pendulum is represented by a horizontally oriented disk of radius $R$ and height $H$ suspended from its center on a thin cylindrical wire of diameter $D$ and length $L$. The disk is designed to perform a non-dissipative conversion of the total AM carried by an on-axis (that is, directed along the wire axis, $z$) beam of light from ${\bf J}_{z,\,\rm in}$ into ${\bf J}_{z,\,\rm out}$. Owing to the law of conservation of AM in the system, the difference in the AM of light, $\Delta {\bf J}_z = {\bf J}_{z,\,\rm in} - {\bf J}_{z,\,\rm out}$, produces a nonzero torque $\Gamma_z$ on the disk, which thus rotates by an angle  $\theta$ around $z$ axis until the driving torque is balanced by the elastic reaction of the wire.
+To establish the theoretical framework, we consider the torsional pendulum schematically depicted in Fig.1. The pendulum is represented by a horizontally oriented disk of radius $R$ and height $H$ suspended from its center on a thin cylindrical wire of diameter $D$ and length $L$. The disk is designed to perform a non-dissipative conversion of the total AM carried by an on-axis (that is, directed along the wire axis, $z$) beam of light from
+${\bf J}_{z,\,\mathrm{in}}$
+into
+${\bf J}_{z,\,\rm out}$. Owing to the law of conservation of AM in the system, the difference in the AM of light, $\Delta {\bf J}_z = {\bf J}_{z,\,\rm in} - {\bf J}_{z,\,\rm out}$, produces a nonzero torque $\Gamma_z$ on the disk, which thus rotates by an angle  $\theta$ around $z$ axis until the driving torque is balanced by the elastic reaction of the wire.
 
 
 
