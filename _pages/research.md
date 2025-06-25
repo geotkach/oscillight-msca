@@ -26,7 +26,7 @@ To establish the theoretical framework, we consider the torsional pendulum schem
 
 
 <figure>
-  <img src="{{ 'assets/images/fig1_concept_250611.png' | relative_url }}" alt="concept image" width="30%"/>
+  <img src="{{ 'assets/images/fig1_concept_250611.png' | relative_url }}" alt="concept image" style="width: 30%;"/>
   <figcaption>Scheme of the torsional pendulum driven by non-dissipative conversion of AM of light.</figcaption>
 </figure>
 
