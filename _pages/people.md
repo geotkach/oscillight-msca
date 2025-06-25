@@ -3,6 +3,7 @@ title: "Team members"
 permalink: /people/
 layout: single
 author_profile: false
+toc: false
 ---
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
