@@ -84,7 +84,15 @@ $$
 
 for the dynamic angular deviation.
 
+We distinguish two contributions to the damping; external (energy dissipation due to friction with air) and internal (due to losses within the wire material): $\gamma_{\rm damp} = \gamma_{\rm ext}+\gamma_{\rm int}$. To assess the external part, let us calculate the Reynolds number, ${\rm Re} = \rho_0 v R/\eta$, where $\rho_0 = 1.2$ kg/m$^3$ is the air density, $\eta=2\times10^{-5}$ Pa s is its dynamic viscosity, and $v$ is the maximum speed of the air flow near the disk. During the steady-state torsional oscillations at resonance, the maximum angular speed of the disk is $\omega_{\rm max}=\dot\theta_{\rm dyn}(0)=\theta_{\rm dyn}\omega$, and $v=R\omega_{\rm max} = R\omega\theta_{\rm dyn}$. With typical experimental values of $R=25$ µm, $\omega\sim10^5$ rad/s, and $\theta_{\rm dyn}\sim0.1$ mrad, the Reynolds number is ${\rm Re}=\rho_0 R^2\omega\theta_{\rm dyn}/\eta<10^{-4}$. Following [^sanchez-padilla2020], we evaluate $\zeta {\rm Re}^2<10^{-11}$ (where $\zeta\sim10^{-3}$) and conclude that the hypothesis of creeping flow is valid and $\gamma_{\rm ext}=(32/3)\eta R^3$. Taking the internal losses as $\gamma_{\rm int} = K_2/\omega$, we have
 
+$$
+\begin{align}
+\frac{\gamma_{\rm ext}}{\gamma_{\rm int}} = \frac{256\eta R}{3\pi D^2 G_2}\sqrt{\frac{L G_1}{\rho H}}. \tag{6}
+\end{align}
+$$
+
+Preliminary fabrication tests suggested us to take the following values for the geometrical parameters of micropendulums: $R=30$~µm, $H=3$~µm, $L=50$~µm, $D=4$~µm.
 
 
 # Fabrication
