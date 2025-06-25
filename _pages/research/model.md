@@ -5,7 +5,7 @@ permalink: /research/model/
 layout: single
 toc: true
 sidebar:
-  nav: "main"
+  nav: "research"
 ---
 <!--
 <style>
