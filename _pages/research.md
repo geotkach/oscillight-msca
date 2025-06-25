@@ -137,9 +137,18 @@ $$
 In practice, the measured spectra of the angular deviation magnitude, ${\tilde \theta}(f)$, and the phase delay, $\phi(f)$, are fitted to Eqs.9,10 with $\gamma$ linked to the quality factor according to Eq.11.
 
 
-
-
+<!----------------------------------------------------------->
 # Fabrication
+Torsion micropendulums were fabricated by multiphoton 3D lithography using a well-established serial DLW technique [5, 6], see the scheme in Fig.2. The working material was the silicon–zirconium hybrid photopolymer SZ2080 (without a photoinitiator to avoid burning by the pump laser beam), drop-casted on a glass cover slip and pre-baked successively at 40, 70 and 90$^{\circ}$ C for 20 minutes in each step. Two DWL systems were used: (i) custom one based on amplified laser Pharos (Light Conversion, Ltd.) with a second harmonic at 515&nbsp;nm wavelength, 300&nbsp;fs pulse duration, 200&nbsp;kHz repetition rate, 50&nbsp;µm/s writing speed and 0.04&nbsp;mW average power (pulse energy 0.20&nbsp;nJ); (ii) commercial Nanofactory workstation (Femtika) based on the femtosecond oscillator Flint (Light Conversion, Ltd.) with a second harmonic at 517±10&nbsp;nm, 144&nbsp;fs pulse duration, 76&nbsp;MHz  repetition rate, 100&nbsp;µm/s writing speed and 4.7&nbsp;mW average power (pulse energy 0.06&nbsp;nJ). In both systems the beam was focused through a 63x oil-immersion microscope objective lens (Plan Apochromat Zeiss) with a numerical aperture of NA = 1.4, thus producing intensities around 0.84&nbsp;TW/cm$^2$ and 0.68&nbsp;TW/cm$^2$ for the systems (i) and (ii), respectively.
+
+<figure style="margin: 0 auto; display: table; text-align: center;">
+  <img src="{{ 'assets/images/fig2_DLW_setup_240412.png' | relative_url }}" alt="DLW" style="width: 90%; height: auto;" />
+  <figcaption style="margin-top: 0.5em;">Schematic of both DLW workstations. The femtosecond-laser beam is frequency-doubled by passing through a nonlinear crystal (NC), expanded through a telescope (not shown) to fill the aperture of a microscope objective (MO), and guided through the galvanometric scanning system (GS) to expose the sample fixed on the XY positioning stage (Aerotech) using a vacuum chuck and/or Kapton™ tape. The writing process is realized by the GS and/or the positioning stages (XY and Z), the laser shutter, and the attenuator (A), all controlled by the 3D Poli softwate. The MO is employed for both laser beam focusing and real-time sample imaging (by a CMOS camera) under red LED illumination in transmission through a long-pass dichroic mirror (DM). The writing power is set by A which is calibrated prior to each fabrication session using a removable photodetector (PD). A pair of lenses (L1, L2) in the 4F configuration relays the beam from GS to the back focal plane of MO for the linear beam stirring over the maximum field of view.</figcaption>
+</figure>
+
+
+
+
 ## Macroscale 3D prototyping
 ## DLW
 # Characterization
