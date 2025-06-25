@@ -1,11 +1,11 @@
 ---
 title: "Research"
 permalink: /research/
-layout: splash
+layout: single
 has_children: true
 nav_exclude: true
 author_profile: false
-toc: true
+toc: false
 ---
 
 ## Research Overview
