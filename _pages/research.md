@@ -1,7 +1,7 @@
 ---
 title: "Research"
 permalink: /research/
-layout: single
+layout: splash
 has_children: true
 nav_exclude: true
 author_profile: false
@@ -11,6 +11,6 @@ author_profile: false
 
 Welcome to the Research section. Choose a topic from the submenu:
 - [Model](/oscillight-msca/research/model/)
-- [Fabrication](/research/fabrication/)
-- [Experiment](/research/experiment/)
-- [Results](/research/results/)
+- [Fabrication](/oscillight-msca/research/fabrication/)
+- [Experiment](/oscillight-msca/research/experiment/)
+- [Results](/oscillight-msca/research/results/)
