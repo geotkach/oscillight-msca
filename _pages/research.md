@@ -31,19 +31,21 @@ To establish the theoretical framework, we consider the torsional pendulum schem
 Assuming the linear regime (that is, $\Gamma_z\propto\theta$, which is true for small angular deviations, $\theta<10^{\circ}$), the equation of motion for this pendulum is
 
 $$
-I\frac{d^2\theta}{dt^2} + \gamma_{\rm damp}\frac{d\theta}{dt} + K_1\theta = \Gamma_z(t)\,\,\,\,\,(1)
+\begin{align}
+I\frac{d^2\theta}{dt^2} + \gamma_{\rm damp}\frac{d\theta}{dt} + K_1\theta = \Gamma_z(t), \tag{1}
+\end{align}
 $$
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
-  <span>$$ E = mc^2 $$</span>
-  <span style="margin-left: 1em;">(1)</span>
-</div>
+where $I$ is the moment of inertia of the suspended part of the pendulum along $z$ (neglecting the thin wire, $I \approx m_{\rm disk}R^2/2 = \rho\pi R^4 (H+h/2)/2$ with $\rho$ being the density of the disk material), $\gamma_{\rm damp}>0$ is the damping coefficient, and $K_1$ is the real part of the torsion constant defined as $K = K_1+iK_2$. In the elastic regime, the torsion constants of the wire can be found as $K_{1,2} = G_{1,2}\pi D^4/(32L)$, where $G_1$ and $G_2$ are the real and imaginary parts of the complex shear modulus, $G = G_1+iG_2$. In practice, the driving torque is sinusoidally modulated with an angular frequency $\omega$, and the magnitude $\Gamma_0$, as follows: $\Gamma_z(t) = \Gamma_0\cos\omega t$. Thus, we can rewrite Eq.1 in a more common form
 
 $$
 \begin{align}
-E &= mc^2 \tag{2}
+\frac{d^2\theta}{dt^2} + 2\lambda\frac{d\theta}{dt} + \omega_0^2 \theta = F \cos\omega t, \tag{2}
 \end{align}
 $$
+
+where $\lambda = \gamma_{\rm damp}/(2I)$, $\omega_0 = \sqrt{K_1/I}$ is the natural frequency of the pendulum, and $F=\Gamma_0/I$. In this project we are interested in the underdamped regime, 
+
 
 # Fabrication
 ## Macroscale 3D prototyping
