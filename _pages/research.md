@@ -25,14 +25,20 @@ To establish the theoretical framework, we consider the torsional pendulum schem
 
 
 
-
+<!--
 <div style="display: flex; justify-content: center;">
   <figure style="width: 90%; text-align: center;">
     <img src="{{ 'assets/images/fig1_concept_250611.png' | relative_url }}" alt="Example image" style="width: 40%; height: auto;" />
     <figcaption style="margin-top: 0.5em;">Scheme of the torsional pendulum driven by non-dissipative conversion of AM of light.</figcaption>
   </figure>
 </div>
+-->
 
+
+<figure style="margin: 0 auto; display: table; text-align: center;">
+  <img src="{{ 'assets/images/fig1_concept_250611.png' | relative_url }}" alt="Concept" style="width: 40%; height: auto;" />
+  <figcaption style="margin-top: 0.5em;">Scheme of the torsional pendulum driven by non-dissipative conversion of AM of light.</figcaption>
+</figure>
 
 # Fabrication
 ## Macroscale 3D prototyping
