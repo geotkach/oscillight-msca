@@ -11,7 +11,7 @@ toc_sticky: true
 The main aim of this project was to demonstrate torsional oscillations resulting from the transfer of angular momentum (AM) from light to matter without absorption and independent of whether the AM is spin or orbital in nature. To achieve this, we developed torsional micropendulums fabricated via direct laser writing (DLW) – a powerful, rapidly evolving additive manufacturing technique based on multiphoton polymerization under ultrafast laser illumination. In the context of AM-driven torsional oscillators, DWL is exceptionally versatile, as it enables precise engineering of the AM-converting component of the micropendulum – in our case, a transparent disk suspended on a thin wire at its center – for optimized optomechanical response to spin, orbital, or both types of AM. Since the seminal 1935 experiment by R. Beth [^beth1936] has already demonstrated torsional oscillations driven by spin AM of light using a macroscopic pendulum with a suspended retarder, our project focused on the complementary demonstration involving orbital AM. Specifically, we targeted the non-dissipative generation or conversion of an optical vortex beam, as originally proposed by L. Allen et al. in 1992 [^allen1992]. Despite its long-standing theoretical foundation, this phenomenon had not been experimentally realized until this work, where we designed and fabricated a micropendulum capable of being rotated by non-dissipative optomechanical transfer of orbital AM. The key component of the device is a spiral phase plate (SPP) with azimuthally varying thickness
 
 $$
-h(\phi) = \ell\lambda_{\rm pump}\phi/[2\pi(n-n_0)]
+h(\phi) = \frac{\ell\lambda_{\rm pump}\phi}{2\pi(n-n_0)}
 $$,
 
 where $\lambda_{\rm pump}$ is the working wavelength, $n$ and $n_0$ are the respective refractive indices of the disk material and the surrounding medium, and $\ell$ is an integer number called “topological charge”. Upon transmission through an SPP, every photon acquires an orbital AM of $\ell\hbar$ and the difference between the input and output AM produces torque on the disk. To measure the resultant angular deviation, we used a probe laser beam focused on the SPP step and sent to a calibrated quadrant photodetector (QPD). The method is detailed in the [Optomechanical experiment](#optomechanical-experiment) section below.
@@ -19,8 +19,11 @@ where $\lambda_{\rm pump}$ is the working wavelength, $n$ and $n_0$ are the resp
 Noteworthy, it is also possible to repeat the original Beth experiment on spin AM with our device. For this, SPP should be replaced with a metasurface which converts polarization of the transmitted light due to form birefringence. As shown earlier [^varapnickas2021], such microstructures can be readily manufactured by DLW, and the probe method is still viable as it only requires a sharp relief feature near the disk edge. 
 
 
-
 # Model
+To establish the theoretical framework of this project, we consider the torsional pendulum schematically depicted in Fig.1. The pendulum is represented by a horizontally oriented disk of radius $R$ and height $H$ suspended from its center on a thin cylindrical wire of diameter $D$ and length $L$. The disk is designed to perform a non-dissipative conversion of the total AM carried by an on-axis (that is, directed along the wire axis, $z$) beam of light from ${\bf J}_{z,\,\rm in}$ into ${\bf J}_{z,\,\rm out}$. Owing to the law of conservation of AM in the system, the difference in the AM of light, $\Delta {\bf J}_z = {\bf J}_{z,\,\rm in} - {\bf J}_{z,\,\rm out}$, produces a nonzero torque $\Gamma_z$ on the disk, which thus rotates by an angle  $\theta$ around $z$ axis until the driving torque is balanced by the elastic reaction of the wire.
+
+
+
 # Fabrication
 ## Macroscale 3D prototyping
 ## DLW
