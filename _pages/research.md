@@ -23,22 +23,28 @@ Noteworthy, it is also possible to repeat the original Beth experiment on spin A
 # Model
 To establish the theoretical framework, we consider the torsional pendulum schematically depicted in Fig.1. The pendulum is represented by a horizontally oriented disk of radius $R$ and height $H$ suspended from its center on a thin cylindrical wire of diameter $D$ and length $L$. The disk is designed to perform a non-dissipative conversion of the total AM carried by an on-axis (that is, directed along the wire axis, $z$) beam of light, ${\mathbf{J}}_z$. Owing to the law of conservation of AM in the system, the difference in the AM of light,  $\Delta {\mathbf{J}}_z$, produces a nonzero torque $\Gamma_z$ on the disk, which thus rotates by an angle $\theta$ around $z$ axis until the driving torque is balanced by the elastic reaction of the wire.
 
-
-
-<!--
-<div style="display: flex; justify-content: center;">
-  <figure style="width: 90%; text-align: center;">
-    <img src="{{ 'assets/images/fig1_concept_250611.png' | relative_url }}" alt="Example image" style="width: 40%; height: auto;" />
-    <figcaption style="margin-top: 0.5em;">Scheme of the torsional pendulum driven by non-dissipative conversion of AM of light.</figcaption>
-  </figure>
-</div>
--->
-
-
 <figure style="margin: 0 auto; display: table; text-align: center;">
   <img src="{{ 'assets/images/fig1_concept_250611.png' | relative_url }}" alt="Concept" style="width: 40%; height: auto;" />
   <figcaption style="margin-top: 0.5em;">Scheme of the torsional pendulum driven by non-dissipative conversion of AM of light.</figcaption>
 </figure>
+
+Assuming the linear regime (that is, $\Gamma_z\propto\theta$, which is true for small angular deviations, $\theta<10^{\circ}$), the equation of motion for this pendulum is
+
+$$
+I\frac{d^2\theta}{dt^2} + \gamma_{\rm damp}\frac{d\theta}{dt} + K_1\theta = \Gamma_z(t)
+$$
+
+<div style="display: flex; justify-content: space-between; align-items: center;">
+  <span>$$ E = mc^2 $$</span>
+  <span style="margin-left: 1em;">(1)</span>
+</div>
+
+$$
+\begin{align}
+E &= mc^2 \\
+F &= ma
+\end{align}
+$$
 
 # Fabrication
 ## Macroscale 3D prototyping
