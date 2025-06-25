@@ -3,6 +3,7 @@ title: "Model test"
 parent: "Research"
 permalink: /research/model/
 layout: single
+toc: true
 ---
 
 <style>
