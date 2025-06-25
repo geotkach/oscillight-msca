@@ -70,7 +70,8 @@ author_profile: false
   </div>
   <!-- Right side: logos -->
   <div style="display: flex; align-items: center; gap: 30px; margin-bottom: 1em;">
-    <img src="{{ '/assets/images/vu-logo.png' | relative_url }}" alt="Logo 1" style="width: auto; height: 160px">
+    <img src="{{ '/assets/images/vu-logo.png' | relative_url }}" alt="Logo 1" style="width: auto; height: 150px">
+    <img src="{{ '/assets/images/laserlab-logo.jpg' | relative_url }}" alt="Logo 2" style="width: auto; height: 90px">
   </div>
 </div>
 <div style="height: 1em;"></div>
