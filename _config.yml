@@ -116,8 +116,8 @@ defaults:
       type: "pages"
     values:
       layout: default
-      toc: true
-      toc_sticky: true
+      # toc: true
+      # toc_sticky: true
 
 # defaults:
 #   # _posts
