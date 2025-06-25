@@ -23,12 +23,15 @@ Noteworthy, it is also possible to repeat the original Beth experiment on spin A
 # Model
 To establish the theoretical framework, we consider the torsional pendulum schematically depicted in Fig.1. The pendulum is represented by a horizontally oriented disk of radius $R$ and height $H$ suspended from its center on a thin cylindrical wire of diameter $D$ and length $L$. The disk is designed to perform a non-dissipative conversion of the total AM carried by an on-axis (that is, directed along the wire axis, $z$) beam of light, ${\mathbf{J}}_z$. Owing to the law of conservation of AM in the system, the difference in the AM of light,  $\Delta {\mathbf{J}}_z$, produces a nonzero torque $\Gamma_z$ on the disk, which thus rotates by an angle $\theta$ around $z$ axis until the driving torque is balanced by the elastic reaction of the wire.
 
+
+
 {% figure
    src="/assets/images/pend_bamboo.jpg"
-   alt="Concept"
-   caption="Scheme of the torsional pendulum driven by non-dissipative conversion of AM of light."
+   alt="Example photo"
    class="center"
-   width="200px"%}
+   caption="Scheme of the torsional pendulum driven by non-dissipative conversion of AM of light."
+   width="600"
+%}
 
 
 
