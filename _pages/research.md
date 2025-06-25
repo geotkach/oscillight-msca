@@ -5,6 +5,7 @@ layout: splash
 has_children: true
 nav_exclude: true
 author_profile: false
+toc: true
 ---
 
 ## Research Overview
