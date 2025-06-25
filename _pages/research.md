@@ -44,7 +44,47 @@ $$
 \end{align}
 $$
 
-where $\lambda = \gamma_{\rm damp}/(2I)$, $\omega_0 = \sqrt{K_1/I}$ is the natural frequency of the pendulum, and $F=\Gamma_0/I$. In this project we are interested in the underdamped regime, 
+where $\lambda = \gamma_{\rm damp}/(2I)$, $\omega_0 = \sqrt{K_1/I}$ is the natural frequency of the pendulum, and $F=\Gamma_0/I$. In this project we are interested in the underdamped regime, $\lambda^2-\omega^2<0$, in which case the general solution of this linear differential equation is
+
+$$
+\begin{align}
+\theta(t) = {\rm e}^{-\lambda t} \left(c_1 \cos(t\sqrt{\omega_0^2-\lambda^2}) + c_2 \sin(t\sqrt{\omega_0^2-\lambda^2})\right) + \theta_{\rm p}(t), \tag{3}
+\end{align}
+$$
+
+where
+
+$$
+\begin{align}
+\theta_{\rm p}(t) = \frac{F}{\sqrt{(\omega_0^2-\omega^2)^2 + 4\lambda^2\omega^2}}\cos(\omega t + \phi)
+\end{align}
+$$
+
+is a particular solution, and
+
+$$
+\begin{align}
+c_1 = -F\frac{\omega_0^2-\omega^2}{(\omega_0^2-\omega^2)^2 + 4\lambda^2\omega^2};\,\,\,\, c_2 = -F\frac{2\lambda\omega^2}{(\omega_0^2-\omega^2)^2 + 4\lambda^2\omega^2};
+\end{align}
+$$
+
+$$
+\begin{align}
+\phi = -\arctan\left(\frac{2\lambda\omega}{\omega_0^2-\omega^2}\right). \tag{4}
+\end{align}
+$$
+
+Once we let the pendulum stabilize ($t \gg 2\pi/\omega \sim 10$ µs in practice), Eq.3 loses the exponential term and we have the steady-state oscillating solution with the magnitude
+
+$$
+\begin{align}
+\theta_{\rm dyn} = \frac{\Gamma_0}{I\sqrt{(\omega_0^2-\omega^2)^2 + 4\lambda^2\omega^2}} \tag{5}
+\end{align}
+$$
+
+for the dynamic angular deviation.
+
+
 
 
 # Fabrication
