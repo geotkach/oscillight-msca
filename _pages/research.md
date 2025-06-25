@@ -12,8 +12,8 @@ math: true
 The main aim of this project was to demonstrate torsional oscillations resulting from the transfer of angular momentum (AM) from light to matter without absorption and independent of whether the AM is spin or orbital in nature. To achieve this, we developed torsional micropendulums fabricated via direct laser writing (DLW) – a powerful, rapidly evolving additive manufacturing technique based on multiphoton polymerization under ultrafast laser illumination. In the context of AM-driven torsional oscillators, DWL is exceptionally versatile, as it enables precise engineering of the AM-converting component of the micropendulum – in our case, a transparent disk suspended on a thin wire at its center – for optimized optomechanical response to spin, orbital, or both types of AM. Since the seminal 1935 experiment by R. Beth [^beth1936] has already demonstrated torsional oscillations driven by spin AM of light using a macroscopic pendulum with a suspended retarder, our project focused on the complementary demonstration involving orbital AM. Specifically, we targeted the non-dissipative generation or conversion of an optical vortex beam, as originally proposed by L. Allen et al. in 1992 [^allen1992]. Despite its long-standing theoretical foundation, this phenomenon had not been experimentally realized until this work, where we designed and fabricated a micropendulum capable of being rotated by non-dissipative optomechanical transfer of orbital AM. The key component of the device is a spiral phase plate (SPP) with azimuthally varying thickness
 
 $$
-h(\phi) = \frac{\ell\lambda_{\rm pump}\phi}{2\pi(n-n_0)}
-$$,
+h(\phi) = \frac{\ell\lambda_{\rm pump}\phi}{2\pi(n-n_0)},
+$$
 
 where $\lambda_{\rm pump}$ is the working wavelength, $n$ and $n_0$ are the respective refractive indices of the disk material and the surrounding medium, and $\ell$ is an integer number called “topological charge”. Upon transmission through an SPP, every photon acquires an orbital AM of $\ell\hbar$ and the difference between the input and output AM produces torque on the disk. To measure the resultant angular deviation, we used a probe laser beam focused on the SPP step and sent to a calibrated quadrant photodetector (QPD). The method is detailed in the [Optomechanical experiment](#optomechanical-experiment) section below.
 
@@ -31,7 +31,7 @@ To establish the theoretical framework, we consider the torsional pendulum schem
 Assuming the linear regime (that is, $\Gamma_z\propto\theta$, which is true for small angular deviations, $\theta<10^{\circ}$), the equation of motion for this pendulum is
 
 $$
-I\frac{d^2\theta}{dt^2} + \gamma_{\rm damp}\frac{d\theta}{dt} + K_1\theta = \Gamma_z(t)
+I\frac{d^2\theta}{dt^2} + \gamma_{\rm damp}\frac{d\theta}{dt} + K_1\theta = \Gamma_z(t)\,\,\,\,\,(1)
 $$
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
@@ -41,8 +41,7 @@ $$
 
 $$
 \begin{align}
-E &= mc^2 \\
-F &= ma
+E &= mc^2 \tag{2}
 \end{align}
 $$
 
