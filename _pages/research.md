@@ -25,14 +25,10 @@ To establish the theoretical framework, we consider the torsional pendulum schem
 
 
 
-{% figure
-   src="{{ 'assets/images/pend_bamboo.jpg' | relative_url }}"
-   alt="Example photo"
-   caption="Scheme of the torsional pendulum driven by non-dissipative conversion of AM of light."
-   width="600"
-%}
-
-
+<figure>
+  <img src="{{ 'assets/images/pend_bamboo.jpg' | relative_url }}" alt="concept image" />
+  <figcaption>Scheme of the torsional pendulum driven by non-dissipative conversion of AM of light.</figcaption>
+</figure>
 
 
 
