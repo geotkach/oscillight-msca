@@ -3,6 +3,6 @@ body {
 }
 .page__footer {
   background-color: white !important;
-  color: #000000; /* custom text color */
+  color: black !important; /* custom text color */
   margin-top: 1em !important;
 }
