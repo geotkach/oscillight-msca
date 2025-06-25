@@ -1,11 +1,12 @@
 ---
-title: "Model test"
+title: "Model"
 parent: "Research"
-permalink: /research/model/
 layout: single
-toc: true
+permalink: /research/model/
 sidebar:
   nav: "research"
+toc: true
+toc_sticky: true
 ---
 <!--
 <style>
