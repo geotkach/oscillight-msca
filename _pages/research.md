@@ -22,9 +22,9 @@ Noteworthy, it is also possible to repeat the original Beth experiment on spin A
 
 # Model
 To establish the theoretical framework, we consider the torsional pendulum schematically depicted in Fig.1. The pendulum is represented by a horizontally oriented disk of radius $R$ and height $H$ suspended from its center on a thin cylindrical wire of diameter $D$ and length $L$. The disk is designed to perform a non-dissipative conversion of the total AM carried by an on-axis (that is, directed along the wire axis, $z$) beam of light from
-${\mathbf{J}}_{\text{z, in}}$ 
+${\mathbf{J}}_{\text{z,in}}$ 
 into
-${\mathbf{J}}_{\text{z,\,out}}$ 
+
 
 
 
