@@ -167,7 +167,7 @@ The optoelectronic system for the pump-probe experiments with torsional micropen
 To explore resonant excitation, the pump beam was modulated by an electro-optical modulator (EOM, Thorlabs EO-AM-NR-C4) placed between two quarter-wave plates (QWP1, QWP2), whose orientations were set to maximize amplitude modulation in transmission through the polarization beam splitters (PBS1, PBS2). The periodic driving voltage ramp, $V_{\rm EOM}$, was produced by a function generator and amplified 20x using a high-voltage amplifier (Thorlabs HVA200). At a driving voltage amplitude of 4.9 V, the modulated pump power $P_{\rm pump}$ achieved a maximum contrast ratio of approximately 30:1, see Fig.5(a). During the experiment, $P_{\rm pump}$ was monitored in situ using a calibrated photodetector (Thorlabs PDA55). The sample was imaged in transmission under white-light illumination (in the Köhler configuration) using a high-NA microscope objective (MO, Olympus LMPlanFL N, 100x, NA=0.8), with the image projected onto a CMOS camera (Thorlabs Zelux CS165CU).
 
 <figure style="margin: 0 auto; display: table; text-align: center;">
-  <img src="{{ 'assets/images/fig4_setup2_250626.png' | relative_url }}" alt="setup2" style="width: 90%; height: auto;" />
+  <img src="{{ 'assets/images/fig4_setup2_250626.png' | relative_url }}" alt="setup2" style="width: 30%; height: auto;" />
   <figcaption style="margin-top: 0.5em;">Fig.5. (a) Typical modulated pump beam power. (b) Time series for piezo voltage and the QPD differential voltage in a typical calibration procedure. (c) Data from (b) recast as the step travel distance. Dashed line is the best sinusoidal fit.</figcaption>
 </figure>
 
