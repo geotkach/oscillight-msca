@@ -2,16 +2,18 @@
 title: "Research"
 permalink: /research/
 layout: single
-has_children: true
-nav_exclude: true
 author_profile: false
-toc: false
+toc: true
+toc_sticky: true
 ---
 
-## Research Overview
+## Intro
+## Model
+## Fabrication
+# Macroscale 3D prototyping
+# DLW
+## Characterization
+## Optomechanical experiment
+## Results
 
-Welcome to the Research section. Choose a topic from the submenu:
-- [Model](/oscillight-msca/research/model/)
-- [Fabrication](/oscillight-msca/research/fabrication/)
-- [Experiment](/oscillight-msca/research/experiment/)
-- [Results](/oscillight-msca/research/results/)
+
