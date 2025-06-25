@@ -63,7 +63,7 @@ plugins:
 
 # Optional: Disable feed
 atom_feed:
-  path: null
+  hide: true
 
 author:
   name   : "First Lastname"
