@@ -115,9 +115,10 @@ defaults:
       path: ""
       type: "pages"
     values:
-      layout: default
-      # toc: true
-      # toc_sticky: true
+      # layout: default
+      layout: single
+      toc: true
+      toc_sticky: true
 
 # defaults:
 #   # _posts
