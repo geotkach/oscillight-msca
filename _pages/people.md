@@ -70,7 +70,7 @@ author_profile: false
   </div>
   <!-- Right side: logos -->
   <div style="display: flex; align-items: center; gap: 30px; margin-bottom: 1em;">
-    <img src="{{ '/assets/images/vu-logo.png' | relative_url }}" alt="Logo 1" style="width: auto; height: 90px">
+    <img src="{{ '/assets/images/vu-logo.png' | relative_url }}" alt="Logo 1" style="width: auto; height: 160px">
   </div>
 </div>
 <div style="height: 1em;"></div>
