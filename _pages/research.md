@@ -84,7 +84,7 @@ $$
 
 for the dynamic angular deviation.
 
-We distinguish two contributions to the damping; external (energy dissipation due to friction with air) and internal (due to losses within the wire material): $\gamma_{\rm damp} = \gamma_{\rm ext}+\gamma_{\rm int}$. To assess the external part, let us calculate the Reynolds number, ${\rm Re} = \rho_0 v R/\eta$, where $\rho_0 = 1.2$ kg/m$^3$ is the air density, $\eta=2\times10^{-5}$ Pa s is its dynamic viscosity, and $v$ is the maximum speed of the air flow near the disk. During the steady-state torsional oscillations at resonance, the maximum angular speed of the disk is $\omega_{\rm max}=\dot\theta_{\rm dyn}(0)=\theta_{\rm dyn}\omega$, and $v=R\omega_{\rm max} = R\omega\theta_{\rm dyn}$. With typical experimental values of $R=25$ µm, $\omega\sim10^5$ rad/s, and $\theta_{\rm dyn}\sim0.1$ mrad, the Reynolds number is ${\rm Re}=\rho_0 R^2\omega\theta_{\rm dyn}/\eta<10^{-4}$. Following [^sanchez-padilla2020], we evaluate $\zeta {\rm Re}^2<10^{-11}$ (where $\zeta\sim10^{-3}$) and conclude that the hypothesis of creeping flow is valid and $\gamma_{\rm ext}=(32/3)\eta R^3$. Taking the internal losses as $\gamma_{\rm int} = K_2/\omega$, we have
+We distinguish two contributions to the damping; external (energy dissipation due to friction with air) and internal (due to losses within the wire material): $\gamma_{\rm damp} = \gamma_{\rm ext}+\gamma_{\rm int}$. To assess the external part, let us calculate the Reynolds number, ${\rm Re} = \rho_0 v R/\eta$, where $\rho_0 = 1.2$&nbsp;kg/m$^3$ is the air density, $\eta=2\times10^{-5}$ Pa s is its dynamic viscosity, and $v$ is the maximum speed of the air flow near the disk. During the steady-state torsional oscillations at resonance, the maximum angular speed of the disk is $\omega_{\rm max}=\dot\theta_{\rm dyn}(0)=\theta_{\rm dyn}\omega$, and $v=R\omega_{\rm max} = R\omega\theta_{\rm dyn}$. With typical experimental values of $R=25$&nbsp;µm, $\omega\sim10^5$&nbsp;rad/s, and $\theta_{\rm dyn}\sim0.1$&nbsp;mrad, the Reynolds number is ${\rm Re}=\rho_0 R^2\omega\theta_{\rm dyn}/\eta<10^{-4}$. Following [^sanchez-padilla2020], we evaluate $\zeta {\rm Re}^2<10^{-11}$ (where $\zeta\sim10^{-3}$) and conclude that the hypothesis of creeping flow is valid and $\gamma_{\rm ext}=(32/3)\eta R^3$. Taking the internal losses as $\gamma_{\rm int} = K_2/\omega$, we have
 
 $$
 \begin{align}
@@ -92,7 +92,51 @@ $$
 \end{align}
 $$
 
-Preliminary fabrication tests suggested us to take the following values for the geometrical parameters of micropendulums: $R=30$~µm, $H=3$~µm, $L=50$~µm, $D=4$~µm.
+Preliminary fabrication tests suggested us to take the following values for the geometrical parameters of micropendulums: $R=30$&nbsp;µm, $H=3$&nbsp;µm, $L=50$&nbsp;µm, $D=4$&nbsp;µm, which correspond to the natural frequency $f_0 = \omega_0/(2\pi)\approx 28$. Then Eq.6 gives $\gamma_{\rm ext}/\gamma_{\rm int}\approx 0.06$, hence we can neglect the external losses and assume $\gamma_{\rm damp} = \gamma_{\rm int}=K_2/\omega$, which gives $\lambda = K_2/(2I\omega)$. Then, dropping the subscripts for simplicity, we get from Eq.5
+
+$$
+\begin{align}
+\theta = \frac{\Gamma_0}{\sqrt{(K_1-I\omega^2)^2 + K_2^2}}. \tag{7}
+\end{align}
+$$
+
+The maximum angular deviation, $\theta_{\rm max}$, occurs at the resonant angular frequency $\omega_{\rm max,\,int}$ for which the denominator of Eq.7 is minimum. This happens when $\omega_{\rm max,\,int} = \sqrt{K_1/I} = \omega_0$, so for such oscillator the resonant frequency coincides with the natural frequency.
+
+Let us introduce the normalized frequency, $\nu = f/f_{\rm max} = \omega/\omega_{\rm max,\,int} =\omega/\omega_0$, and the dimensionless parameter $\gamma=K_2/K_1$ associated with mechanical losses. Then we can write
+
+$$
+\begin{align}
+\theta = \frac{\Gamma_0}{K_1\sqrt{(1-\nu^2)^2 + \gamma^2}},\,\,\,\,\,\,\,\,\,\, \theta_{\rm max} = \frac{\Gamma_0}{K_2} \tag{8}
+\end{align}
+$$
+
+and in the normalized form:
+
+$$
+\begin{align}
+\frac{\theta}{\theta_{\rm max}} = {\tilde\theta} =  \frac{\gamma}{\sqrt{(1-\nu^2)^2 + \gamma^2}}. \tag{9}
+\end{align}
+$$
+
+The phase delay (Eq.4) between the pump and the mechanical signal can be expressed as
+
+$$
+\begin{align}
+\phi = -\arctan\left(\frac{\gamma}{1-\nu^2}\right). \tag{10}
+\end{align}
+$$
+
+The material parameter, $\gamma$, depends on the fabrication conditions and cannot be measured directly. Therefore, we express it in the terms of the measurable quality factor, $Q = f_{\rm max}/\Delta f$, where $\Delta f$ is the full width at the half-maximum of the spectrum, ${\tilde \theta}(f)$. From this definition of $Q$ we find
+
+$$
+\begin{align}
+Q = \frac{1}{2\left( \sqrt{1+\gamma\sqrt{3}} -1\right)}. \tag{11}
+\end{align}
+$$
+
+In practice, the measured spectra of the angular deviation magnitude, ${\tilde \theta}(f)$, and the phase delay, $\phi(f)$, are fitted to Eqs.9,10 with $\gamma$ linked to the quality factor according to Eq.11.
+
+
 
 
 # Fabrication
