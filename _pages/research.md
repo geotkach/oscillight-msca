@@ -139,7 +139,7 @@ In practice, the measured spectra of the angular deviation magnitude, ${\tilde \
 
 
 <!----------------------------------------------------------->
-# Fabrication
+# Fabrication and characterization
 Torsion micropendulums were fabricated by multiphoton 3D lithography using a well-established serial DLW technique [^brasselet2010] [^varapnickas2020], see the scheme in Fig.2. The working material was the silicon–zirconium hybrid photopolymer SZ2080 (without a photoinitiator to avoid burning by the pump laser beam), drop-casted on a glass cover slip and pre-baked successively at 40, 70 and 90$^{\circ}$ C for 20 minutes in each step. Two DWL systems were used: (i) custom one based on amplified laser Pharos (Light Conversion, Ltd.) with a second harmonic at 515&nbsp;nm wavelength, 300&nbsp;fs pulse duration, 200&nbsp;kHz repetition rate, 50&nbsp;µm/s writing speed and 0.04&nbsp;mW average power (pulse energy 0.20&nbsp;nJ); (ii) commercial Nanofactory workstation (Femtika) based on the femtosecond oscillator Flint (Light Conversion, Ltd.) with a second harmonic at 517±10&nbsp;nm, 144&nbsp;fs pulse duration, 76&nbsp;MHz  repetition rate, 100&nbsp;µm/s writing speed and 4.7&nbsp;mW average power (pulse energy 0.06&nbsp;nJ). In both systems the beam was focused through a 63x oil-immersion microscope objective lens (Plan Apochromat Zeiss) with a numerical aperture of NA = 1.4, thus producing intensities around 0.84&nbsp;TW/cm$^2$ and 0.68&nbsp;TW/cm$^2$ for the systems (i) and (ii), respectively.
 
 <figure style="margin: 0 auto; display: table; text-align: center;">
@@ -149,9 +149,21 @@ Torsion micropendulums were fabricated by multiphoton 3D lithography using a wel
 
 The DLW process was controlled using 3D Poli software (Femtika) with a custom script to produce each microstructure layer by layer. To ensure smooth polymerization, the scanning was done with concentric circles for the wire, and concentric helices for the SPP. Fabrication of a single micropendulum structure took approximately 3 hours. After exposure, each sample was developed in acetone for 1 hour, rinsed in ethanol, and dried using critical point drying (CPD, Quorum K850) to minimize the damaging effects of surface tension on the wire and disk orientations. For inspection purposes, test samples were coated with about 20 nm of silver and imaged using a scanning electron microscope (SEM, Prisma E from Thermo Fisher Scientific). Typical images are shown in Fig.3(a-c), where the middle structure is the 'null' pendulum, which includes vertical steps (required for rotation detection) but lacks an SPP ramp and is therefore not expected to produce orbital AM conversion. The micropendulums had the parameters given [above](#geom), except the designed wire thickness which was set to $D = 2.7$&nbsp;µm because the fabricated wires were consistently measured to be thicker than the designed ones. The SPP step height $h = \lambda_{\rm pump} / (n - n_0)$, where $\lambda_{\rm pump}=532$&nbsp;µm, $n=1.504$ and $n_0=1$. are the refractive indices of the polymer and the surrounding medium (air), respectively. In the 'null' pendulum, the steps were designed to have the same height, $h \approx 1.055$&nbsp;µm. The driving torque was modeled as $\Gamma_0 = \ell \lambda_{\rm pump} P/(2\pi c)$, where $c$ is the speed of light in vacuum and $P$ is the intercepted optical power.
 
+<figure style="margin: 0 auto; display: table; text-align: center;">
+  <img src="{{ 'assets/images/fig3_samples_250611.png' | relative_url }}" alt="samples" style="width: 90%; height: auto;" />
+  <figcaption style="margin-top: 0.5em;">Fig.3. Typical fabricated micropendulums. (a-c) SEM images of the SPP (a, c) and the 'null' (b) structures. (d-f) Corresponding optical interferometry patterns at the pump wavelength of 532 nm.</figcaption>
+</figure>
 
-# Characterization
+
+<!----------------------------------------------------------->
 # Optomechanical experiment
+The optoelectronic system for the pump-probe experiments with torsional micropendulums is schematically shown in Fig.4(a). The experiment consisted of exciting torsional oscillations by illuminating a micropendulum with a linearly polarized, focused Gaussian beam (Verdi V5, continuous-wave at 532 nm) directed along the wire axis ($z>0$) through the flat underside of the disk. Based on the specifications of the focusing aspheric lens (AL, Thorlabs AL2520-A) and the measured incident beam diameter of 0.943 mm, we estimated the Rayleigh range to be 303 µm and the beam waist $w_0 \approx 7.2$&nbsp;µm - approximately half the radius of the flat central disk in the 'null' sample, $R_0 = R/2$, as shown in Fig.4(c), hence we assumed $P=P_{\rm pump}$.
+
+<figure style="margin: 0 auto; display: table; text-align: center;">
+  <img src="{{ 'assets/images/fig4_setup_250611.png' | relative_url }}" alt="setup" style="width: 90%; height: auto;" />
+  <figcaption style="margin-top: 0.5em;">Fig.4. Schematic of the optomechanical pump-probe experiment, where $(x,y,z)$ is the Cartesian coordinate frame, $\bf g$ - gravity, P - linear polarizer, QWP - quarter-wave plate, EOM - electro-optical modulator, PBS - polarizing beam splitter, BB - beam block, AL - aspheric lens, MO - microscope objective, DM - dichroic mirror, QPD - quadrant photodetector, NF - notch filter for the indicated wavelength, and the numbers next to lenses are their focal lengths in millimeters. (b) Camera image of the pump and probe beams in the sample plane. (c, d) Images of the 'null' and SPP pendulums, respectively. Same as (b), these images were Fourier filtered with a 70-pixel Gaussian window in order to reduce speckle and parasitic interference effects from the sample cover slip and the supporting 1-mm-thick glass slide. (e) Typical modulated pump beam power. (f) Time series for piezo voltage and the QPD differential voltage in a typical calibration procedure. (g) Data from (f) recast as the step travel distance. Dashed line is the best sinusoidal fit.</figcaption>
+</figure>
+
 # Results
 
 
