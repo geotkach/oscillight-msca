@@ -5,9 +5,9 @@ toc: false
 toc_sticky: false
 title: "Welcome"
 header:
-  overlay_image: /assets/images/header.jpg
+  overlay_image: {{ 'assets/images/setup crop.jpg' | relative_url }}
   overlay_filter: 0.3 # darken the image for text visibility
-  caption: "Photo by You"
+  caption: "Pump-probe experiment in action"
   actions:
     - label: "View our work"
       url: "/gallery/"
