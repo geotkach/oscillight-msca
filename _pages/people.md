@@ -2,6 +2,7 @@
 title: "Team members"
 permalink: /people/
 layout: single
+classes: wide
 author_profile: false
 toc: false
 ---
