@@ -7,6 +7,14 @@ author_profile: false
 toc: false
 toc_sticky: false
 ---
+<link href="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/css/lightbox.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/js/lightbox.min.js"></script>
+
+<a href="https://placekitten.com/1024/768" data-lightbox="kitten" data-title="Cute kitten caption">
+  <img src="https://placekitten.com/300/200" alt="Kitten" />
+</a>
+
+
 ### Sample fabrication at VULRC (Lithuania)
 
 <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: center;">
