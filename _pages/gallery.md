@@ -6,23 +6,42 @@ classes: wide
 author_profile: false
 toc: false
 toc_sticky: false
+math: true
 ---
-<!-- Lightbox2 CSS -->
-<link href="https://unpkg.com/lightbox2@2.11.4/dist/css/lightbox.min.css" rel="stylesheet">
-
-<!-- Lightbox2 JS -->
-<script src="https://unpkg.com/lightbox2@2.11.4/dist/js/lightbox.min.js"></script>
-
-
-### Sample fabrication at VULRC (Lithuania)
 
 <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: center;">
+  ### 3D prototyping
+
+  <div style="width: 200px; text-align: center;">
+    <a href="{{ 'assets/images/full/openscad 3 pend.jpg' | relative_url }}">
+      <img src="{{ 'assets/images/thumb/openscad 3 pend.jpg' | relative_url }}" alt="Image 2" style="width: 100%; border-radius: 8px;" />
+    </a>
+    <div style="margin-top: 0.5rem;">openSCAD model for pendulums with $\ell=-1,0,+1$</div>
+  </div>
+
+  <div style="width: 200px; text-align: center;">
+    <a href="{{ 'assets/images/full/openscad 3 pend.jpg' | relative_url }}">
+      <img src="{{ 'assets/images/thumb/openscad 3 pend.jpg' | relative_url }}" alt="Image 2" style="width: 100%; border-radius: 8px;" />
+    </a>
+    <div style="margin-top: 0.5rem;">openSCAD model for pendulums with $\ell=-1,0,+1$</div>
+  </div>
+
+  
+### Sample fabrication at VULRC (Lithuania)
 
   <div style="width: 200px; text-align: center;">
     <a href="{{ 'assets/images/full/femtolab.jpg' | relative_url }}" data-lightbox="gallery" data-title="Writing/imaging part of the Femtolab-based DLW system">
       <img src="{{ 'assets/images/thumb/femtolab.jpg' | relative_url }}" alt="Image 1" style="width: 100%; border-radius: 8px;" />
     </a>
     <div style="margin-top: 0.5rem;">Writing/imaging part of the Femtolab-based DLW system</div>
+  </div>
+
+
+  <div style="width: 200px; text-align: center;">
+    <a href="{{ 'assets/images/full/slide.jpg' | relative_url }}">
+      <img src="{{ 'assets/images/thumb/slide.jpg' | relative_url }}" alt="Image 2" style="width: 100%; border-radius: 8px;" />
+    </a>
+    <div style="margin-top: 0.5rem;">SZ2080 drop on a slide, ready for writing</div>
   </div>
 
 
@@ -54,16 +73,36 @@ toc_sticky: false
     <a href="{{ 'assets/images/full/cpd.jpg' | relative_url }}">
       <img src="{{ 'assets/images/thumb/cpd.jpg' | relative_url }}" alt="Image 2" style="width: 100%; border-radius: 8px;" />
     </a>
-    <div style="margin-top: 0.5rem;">Critical point drying apparatus</div>
+    <div style="margin-top: 0.5rem;">Critical point drying (CPD) apparatus</div>
   </div>
 
 
+  <div style="width: 200px; text-align: center;">
+    <a href="{{ 'assets/images/full/pouch.jpg' | relative_url }}">
+      <img src="{{ 'assets/images/thumb/pouch.jpg' | relative_url }}" alt="Image 2" style="width: 100%; border-radius: 8px;" />
+    </a>
+    <div style="margin-top: 0.5rem;">Protective paper pouch with a sample slide in ethanol, before CPD</div>
+  </div>
   
+
   <div style="width: 200px; text-align: center;">
     <a href="{{ 'assets/images/full/opt micr pend.jpg' | relative_url }}">
       <img src="{{ 'assets/images/thumb/opt micr pend.jpg' | relative_url }}" alt="Image 2" style="width: 100%; border-radius: 8px;" />
     </a>
     <div style="margin-top: 0.5rem;">Micropendulums under optical microscope</div>
   </div>
+
+
+  <div style="width: 200px; text-align: center;">
+    <a href="{{ 'assets/images/full/new samples.jpg' | relative_url }}">
+      <img src="{{ 'assets/images/thumb/new samples.jpg' | relative_url }}" alt="Image 2" style="width: 100%; border-radius: 8px;" />
+    </a>
+    <div style="margin-top: 0.5rem;">New batch of samples, March 2024</div>
+  </div>
+
+
+
+
+  
 
 </div>
