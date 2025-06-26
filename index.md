@@ -1,11 +1,16 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: single
 author_profile: false
 toc: false
 toc_sticky: false
+title: "Welcome"
+header:
+  overlay_image: /assets/images/header.jpg
+  overlay_filter: 0.3 # darken the image for text visibility
+  caption: "Photo by You"
+  actions:
+    - label: "View our work"
+      url: "/gallery/"
 ---
 
 
