@@ -1,6 +1,6 @@
 ---
 title: "Media"
-permalink: /media
+permalink: /media/
 layout: single
 author_profile: false
 toc: false
