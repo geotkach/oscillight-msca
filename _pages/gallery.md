@@ -8,9 +8,9 @@ toc: false
 toc_sticky: false
 math: true
 ---
+### 3D prototyping
 
 <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: center;">
-  ### 3D prototyping
 
   <div style="width: 200px; text-align: center;">
     <a href="{{ 'assets/images/full/openscad 3 pend.jpg' | relative_url }}">
@@ -25,12 +25,14 @@ math: true
     </a>
     <div style="margin-top: 0.5rem;">openSCAD model for pendulums with $\ell=-1,0,+1$</div>
   </div>
-
+</div>
   
-### Sample fabrication at VULRC (Lithuania)
+  ### Sample fabrication at VULRC (Lithuania)
 
+<div style="display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: center;">
+  
   <div style="width: 200px; text-align: center;">
-    <a href="{{ 'assets/images/full/femtolab.jpg' | relative_url }}" data-lightbox="gallery" data-title="Writing/imaging part of the Femtolab-based DLW system">
+    <a href="{{ 'assets/images/full/femtolab.jpg' | relative_url }}">
       <img src="{{ 'assets/images/thumb/femtolab.jpg' | relative_url }}" alt="Image 1" style="width: 100%; border-radius: 8px;" />
     </a>
     <div style="margin-top: 0.5rem;">Writing/imaging part of the Femtolab-based DLW system</div>
