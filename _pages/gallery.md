@@ -7,12 +7,11 @@ author_profile: false
 toc: false
 toc_sticky: false
 ---
-<link href="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/css/lightbox.min.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/js/lightbox.min.js"></script>
+<!-- Lightbox2 CSS -->
+<link href="https://unpkg.com/lightbox2@2.11.4/dist/css/lightbox.min.css" rel="stylesheet">
 
-<a href="https://placekitten.com/1024/768" data-lightbox="kitten" data-title="Cute kitten caption">
-  <img src="https://placekitten.com/300/200" alt="Kitten" />
-</a>
+<!-- Lightbox2 JS -->
+<script src="https://unpkg.com/lightbox2@2.11.4/dist/js/lightbox.min.js"></script>
 
 
 ### Sample fabrication at VULRC (Lithuania)
