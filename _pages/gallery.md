@@ -12,7 +12,7 @@ toc_sticky: false
 <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: center;">
 
   <div style="width: 200px; text-align: center;">
-    <a href="{{ 'assets/images/full/femtolab.jpg' | relative_url }}">
+    <a href="{{ 'assets/images/full/femtolab.jpg' | relative_url }}" data-lightbox="gallery" data-title="Writing/imaging part of the Femtolab-based DLW system">
       <img src="{{ 'assets/images/thumb/femtolab.jpg' | relative_url }}" alt="Image 1" style="width: 100%; border-radius: 8px;" />
     </a>
     <div style="margin-top: 0.5rem;">Writing/imaging part of the Femtolab-based DLW system</div>
