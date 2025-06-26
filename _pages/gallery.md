@@ -24,7 +24,7 @@ math: true
     <a href="{{ 'assets/images/full/prusa 45deg.jpg' | relative_url }}">
       <img src="{{ 'assets/images/thumb/prusa 45deg.jpg' | relative_url }}" alt="Image 2" style="width: 100%; border-radius: 8px;" />
     </a>
-    <div style="margin-top: 0.5rem;">1:500 scale model printed with Prusa SL1. Thanks to Bernard Tregon (LOMA)</div>
+    <div style="margin-top: 0.5rem;">1:500 scale model printed with Prusa SL1. Thanks to <a href='https://www.https://www.linkedin.com/in/bernard-tregon-ab49585/' target='_blank' rel='noopener noreferrer'>Bernard Tregon</div>
   </div>
 
 
