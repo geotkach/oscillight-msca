@@ -24,7 +24,7 @@ math: true
     <a href="{{ 'assets/images/full/prusa 45deg.jpg' | relative_url }}">
       <img src="{{ 'assets/images/thumb/prusa 45deg.jpg' | relative_url }}" alt="Image 2" style="width: 100%; border-radius: 8px;" />
     </a>
-    <div style="margin-top: 0.5rem;">1:500 scale model printed with Prusa SL1</div>
+    <div style="margin-top: 0.5rem;">1:500 scale model printed with Prusa SL1. Thanks to Bernard Tregon (LOMA)</div>
   </div>
 
 
@@ -40,7 +40,7 @@ math: true
     <a href="{{ 'assets/images/full/bambu disks.jpg' | relative_url }}">
       <img src="{{ 'assets/images/thumb/bambu disks.jpg' | relative_url }}" alt="Image 2" style="width: 100%; border-radius: 8px;" />
     </a>
-    <div style="margin-top: 0.5rem;">1:500 scale disks for $\ell=-1$ pendulum printed with Bambu Lab PS1 at $90^{\circ}$, $0^{\circ}$, and $45^{\circ}$ (0.2, 0.01, and 0.2mm layer height)</div>
+    <div style="margin-top: 0.5rem;">1:500 scale disks for $\ell=-1$ pendulum printed with Bambu Lab PS1 at $90^{\circ}$, $0^{\circ}$, and $45^{\circ}$ (0.2, 0.01, and 0.2mm layer height). Thanks to <a href='https://www.linkedin.com/in/your-username' target='_blank' rel='noopener noreferrer'>Ivan Gusachenko</a></div>
   </div>
 
 
@@ -148,7 +148,7 @@ math: true
     <a href="{{ 'assets/images/full/eom-align.jpg' | relative_url }}">
       <img src="{{ 'assets/images/thumb/eom-align.jpg' | relative_url }}" alt="Image 2" style="width: 100%; border-radius: 8px;" />
     </a>
-    <div style="margin-top: 0.5rem;">EOM alignment</div>
+    <div style="margin-top: 0.5rem;">EOM alignment using scotch tape</div>
   </div>
 
 
