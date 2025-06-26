@@ -19,6 +19,6 @@ In 2009, Etienne Brasselet (Bordeaux, France) proposed using the emerging techni
 
 The project gained momentum when Mangirdas Malinauskas took over fabrication in his Laser Nanophotonics Group at the Vilnius University Research Center (VULRC, Lithuania). By 2013, well-formed SPP micropendulums were developed, thanks to the dedicated efforts of Albertas Žukauskas. However, subsequent optomechanical experiments (2013–2015, Bordeaux, France) failed to detect any light-induced motion in the microdevices — largely due to the absence of a reliable detection method.
 
-Eventually, I was entrusted with reviving the project and bringing it to completion. I developed a suitable detection technique, only to discover that the precious micropendulums disintegrated under the pump laser. Faced with no other option, I traveled to Vilnius, learned DLW firsthand, and fabricated new samples myself — using a modified material, adjusted fabrication conditions, and an improved design.
+Eventually, in 2023 I was entrusted with reviving the project and bringing it to completion. I developed a suitable detection technique, only to discover that the precious micropendulums disintegrated under the pump laser. Faced with no other option, I traveled to Vilnius, learned DLW firsthand, and fabricated new samples myself — using a modified material, adjusted fabrication conditions, and an improved design.
 
 [Continue reading...](/oscillight-msca/research/)
