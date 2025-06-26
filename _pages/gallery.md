@@ -40,7 +40,7 @@ math: true
     <a href="{{ 'assets/images/full/bambu disks.jpg' | relative_url }}">
       <img src="{{ 'assets/images/thumb/bambu disks.jpg' | relative_url }}" alt="Image 2" style="width: 100%; border-radius: 8px;" />
     </a>
-    <div style="margin-top: 0.5rem;">1:500 scale disks for $\ell=-1$ pendulum printed with Bambu Lab PS1 at $90^{\circ}$, $0^{\circ}$, and $45^{\circ}$ (0.2, 0.01, and 0.2mm layer height). Thanks to <a href='https://www.https://www.linkedin.com/in/beamshaping-ivan/' target='_blank' rel='noopener noreferrer'>Ivan Gusachenko</a></div>
+    <div style="margin-top: 0.5rem;">1:500 scale disks for $\ell=-1$ pendulum printed with Bambu Lab PS1 at $90^{\circ}$, $0^{\circ}$, and $45^{\circ}$ (0.2, 0.01, and 0.2mm layer height). Thanks to <a href='https://www.linkedin.com/in/beamshaping-ivan/' target='_blank' rel='noopener noreferrer'>Ivan Gusachenko</a></div>
   </div>
 
 
