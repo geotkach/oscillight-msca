@@ -5,7 +5,7 @@ toc: false
 toc_sticky: false
 title: "Welcome"
 header:
-  overlay_image: {{ 'assets/images/setup crop.jpg' | relative_url }}
+  overlay_image: /assets/images/setup crop.jpg
   overlay_filter: 0.3 # darken the image for text visibility
   caption: "Pump-probe experiment in action"
   actions:
