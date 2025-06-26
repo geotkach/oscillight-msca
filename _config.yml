@@ -13,14 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: test title
+title: OSCILLIGHT - MSCA project
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
+  some description.
 minimal_mistakes_skin: contrast
 search: false
 
@@ -66,10 +62,10 @@ atom_feed:
   hide: true
 
 author:
-  name   : "First Lastname"
+  name   : "Georgiy Tkachenko"
   avatar : "assets/images/pump probe ell=-1.bmp"
   # avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "Info for author_profile"
   # links:
   #   - label: "Website"
   #     icon: "fas fa-fw fa-link"
@@ -96,14 +92,6 @@ author:
 #       icon: "fab fa-fw fa-instagram"
 #       url: "https://instagram.com/"
 
-# footer_custom: footer_custom
-# footer:
-#   custom: footer_custom
-
-# footer:
-#   links: false
-
-
 # collections:
 #   pages:
 #     output: true
@@ -120,31 +108,6 @@ defaults:
       toc: true
       toc_sticky: true
 
-# defaults:
-#   # _posts
-#   - scope:
-#       path: ""
-#       type: pages
-#     values:
-#       # layout: single
-#       layout: splash
-#       classes: wide
-#       author_profile: false
-#       read_time: false
-#       comments: false
-#       share: false
-#       related: false
-#       # sidebar:
-#       #   nav: "main"
-#   # _pages
-#   - scope:
-#       path: "_pages"
-#       type: pages
-#     values:
-#       # layout: single
-#       layout: splash
-#       classes: wide
-#       author_profile: false
 
 category_archive:
   type: liquid
