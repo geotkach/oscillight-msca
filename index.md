@@ -7,12 +7,5 @@ author_profile: true
 ---
 
 
-Test info
-
-
-
-<div style="text-align: center;">
-  <img src="{{ 'assets/images/pend_bamboo.jpg' | relative_url }}" alt="Alt text" width="30%">
-</div>
-
+This website is for sharing results ...
 
