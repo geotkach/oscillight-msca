@@ -8,11 +8,11 @@ toc: false
 toc_sticky: false
 math: true
 ---
-### 3D prototyping
+## 3D prototyping
 
 <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: center;">
 
-  <div style="width: 200px; text-align: center;">
+  <div style="width: 150px; text-align: center;">
     <a href="{{ 'assets/images/full/openscad 3 pend.png' | relative_url }}">
       <img src="{{ 'assets/images/thumb/openscad 3 pend.png' | relative_url }}" alt="Image 2" style="width: 100%; border-radius: 8px;" />
     </a>
@@ -20,7 +20,7 @@ math: true
   </div>
 
 
-  <div style="width: 200px; text-align: center;">
+  <div style="width: 150px; text-align: center;">
     <a href="{{ 'assets/images/full/prusa 45deg.jpg' | relative_url }}">
       <img src="{{ 'assets/images/thumb/prusa 45deg.jpg' | relative_url }}" alt="Image 2" style="width: 100%; border-radius: 8px;" />
     </a>
@@ -28,7 +28,7 @@ math: true
   </div>
 
 
-  <div style="width: 200px; text-align: center;">
+  <div style="width: 150px; text-align: center;">
     <a href="{{ 'assets/images/full/prusa 3 pend.jpg' | relative_url }}">
       <img src="{{ 'assets/images/thumb/prusa 3 pend.jpg' | relative_url }}" alt="Image 2" style="width: 100%; border-radius: 8px;" />
     </a>
@@ -36,15 +36,15 @@ math: true
   </div>
 
 
-  <div style="width: 200px; text-align: center;">
+  <div style="width: 150px; text-align: center;">
     <a href="{{ 'assets/images/full/bambu disks.jpg' | relative_url }}">
       <img src="{{ 'assets/images/thumb/bambu disks.jpg' | relative_url }}" alt="Image 2" style="width: 100%; border-radius: 8px;" />
     </a>
-    <div style="margin-top: 0.5rem;">1:500 scale disks for $\ell=-1$ pendulum printed with Bambu Lab PS1 at $90^{\circ}$ (0.2 mm z steps), $0^{\circ}$, and $45^{\circ}$ (0.2, 0.01, and 0.2mm resolution by z, respectively)</div>
+    <div style="margin-top: 0.5rem;">1:500 scale disks for $\ell=-1$ pendulum printed with Bambu Lab PS1 at $90^{\circ}$, $0^{\circ}$, and $45^{\circ}$ (0.2, 0.01, and 0.2mm layer height)</div>
   </div>
 
 
-  <div style="width: 200px; text-align: center;">
+  <div style="width: 150px; text-align: center;">
     <a href="{{ 'assets/images/full/bambu pend.jpg' | relative_url }}">
       <img src="{{ 'assets/images/thumb/bambu pend.jpg' | relative_url }}" alt="Image 2" style="width: 100%; border-radius: 8px;" />
     </a>
@@ -55,11 +55,11 @@ math: true
 
 
 
-### Sample fabrication at VULRC (Lithuania)
+## Sample fabrication (VULRC, Lithuania)
 
 <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: center;">
   
-  <div style="width: 200px; text-align: center;">
+  <div style="width: 150px; text-align: center;">
     <a href="{{ 'assets/images/full/femtolab.jpg' | relative_url }}">
       <img src="{{ 'assets/images/thumb/femtolab.jpg' | relative_url }}" alt="Image 1" style="width: 100%; border-radius: 8px;" />
     </a>
@@ -67,7 +67,7 @@ math: true
   </div>
 
 
-  <div style="width: 200px; text-align: center;">
+  <div style="width: 150px; text-align: center;">
     <a href="{{ 'assets/images/full/slide.jpg' | relative_url }}">
       <img src="{{ 'assets/images/thumb/slide.jpg' | relative_url }}" alt="Image 2" style="width: 100%; border-radius: 8px;" />
     </a>
@@ -75,7 +75,7 @@ math: true
   </div>
 
 
-  <div style="width: 200px; text-align: center;">
+  <div style="width: 150px; text-align: center;">
     <a href="{{ 'assets/images/full/femtolab screen.jpg' | relative_url }}">
       <img src="{{ 'assets/images/thumb/femtolab screen.jpg' | relative_url }}" alt="Image 2" style="width: 100%; border-radius: 8px;" />
     </a>
@@ -83,7 +83,7 @@ math: true
   </div>
 
 
-  <div style="width: 200px; text-align: center;">
+  <div style="width: 150px; text-align: center;">
     <a href="{{ 'assets/images/full/nanofactory.jpg' | relative_url }}">
       <img src="{{ 'assets/images/thumb/nanofactory.jpg' | relative_url }}" alt="Image 2" style="width: 100%; border-radius: 8px;" />
     </a>
@@ -91,7 +91,7 @@ math: true
   </div>
 
 
-  <div style="width: 200px; text-align: center;">
+  <div style="width: 150px; text-align: center;">
     <a href="{{ 'assets/images/full/nanofactory open.jpg' | relative_url }}">
       <img src="{{ 'assets/images/thumb/nanofactory open.jpg' | relative_url }}" alt="Image 2" style="width: 100%; border-radius: 8px;" />
     </a>
@@ -99,7 +99,7 @@ math: true
   </div>
 
 
-  <div style="width: 200px; text-align: center;">
+  <div style="width: 150px; text-align: center;">
     <a href="{{ 'assets/images/full/cpd.jpg' | relative_url }}">
       <img src="{{ 'assets/images/thumb/cpd.jpg' | relative_url }}" alt="Image 2" style="width: 100%; border-radius: 8px;" />
     </a>
@@ -107,7 +107,7 @@ math: true
   </div>
 
 
-  <div style="width: 200px; text-align: center;">
+  <div style="width: 150px; text-align: center;">
     <a href="{{ 'assets/images/full/pouch.jpg' | relative_url }}">
       <img src="{{ 'assets/images/thumb/pouch.jpg' | relative_url }}" alt="Image 2" style="width: 100%; border-radius: 8px;" />
     </a>
@@ -115,7 +115,7 @@ math: true
   </div>
   
 
-  <div style="width: 200px; text-align: center;">
+  <div style="width: 150px; text-align: center;">
     <a href="{{ 'assets/images/full/opt micr pend.jpg' | relative_url }}">
       <img src="{{ 'assets/images/thumb/opt micr pend.jpg' | relative_url }}" alt="Image 2" style="width: 100%; border-radius: 8px;" />
     </a>
@@ -123,17 +123,77 @@ math: true
   </div>
 
 
-  <div style="width: 200px; text-align: center;">
+  <div style="width: 150px; text-align: center;">
     <a href="{{ 'assets/images/full/new samples.jpg' | relative_url }}">
       <img src="{{ 'assets/images/thumb/new samples.jpg' | relative_url }}" alt="Image 2" style="width: 100%; border-radius: 8px;" />
     </a>
     <div style="margin-top: 0.5rem;">New batch of samples, March 2024</div>
   </div>
+</div>
 
 
 
+## Optomechanical experiment (LOMA, France)
+<div style="display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: center;">
+
+  <div style="width: 150px; text-align: center;">
+    <a href="{{ 'assets/images/full/eom-setup.jpg' | relative_url }}">
+      <img src="{{ 'assets/images/thumb/eom-setup.jpg' | relative_url }}" alt="Image 2" style="width: 100%; border-radius: 8px;" />
+    </a>
+    <div style="margin-top: 0.5rem;">Setting up the electro-optical modulator (EOM) for the pump beam</div>
+  </div>
+
+
+  <div style="width: 150px; text-align: center;">
+    <a href="{{ 'assets/images/full/eom-align.jpg' | relative_url }}">
+      <img src="{{ 'assets/images/thumb/eom-align.jpg' | relative_url }}" alt="Image 2" style="width: 100%; border-radius: 8px;" />
+    </a>
+    <div style="margin-top: 0.5rem;">EOM alignment</div>
+  </div>
+
+
+  <div style="width: 150px; text-align: center;">
+    <a href="{{ 'assets/images/full/piezo.jpg' | relative_url }}">
+      <img src="{{ 'assets/images/thumb/piezo.jpg' | relative_url }}" alt="Image 2" style="width: 100%; border-radius: 8px;" />
+    </a>
+    <div style="margin-top: 0.5rem;">Piezo stack for precise positioning of the sample and QPD calibration</div>
+  </div>
+
+
+  <div style="width: 150px; text-align: center;">
+    <a href="{{ 'assets/images/full/piezo-calib.jpg' | relative_url }}">
+      <img src="{{ 'assets/images/thumb/piezo-calib.jpg' | relative_url }}" alt="Image 2" style="width: 100%; border-radius: 8px;" />
+    </a>
+    <div style="margin-top: 0.5rem;">Calibrating the QPD via piezo actuation</div>
+  </div>
+
+
+  <div style="width: 150px; text-align: center;">
+    <a href="{{ 'assets/images/full/setup in action.jpg' | relative_url }}">
+      <img src="{{ 'assets/images/thumb/setup in action.jpg' | relative_url }}" alt="Image 2" style="width: 100%; border-radius: 8px;" />
+    </a>
+    <div style="margin-top: 0.5rem;">Pump-probe optomechanical system in action</div>
+  </div>
+
+
+  <div style="width: 150px; text-align: center;">
+    <a href="{{ 'assets/images/full/noisy-signal.jpg' | relative_url }}">
+      <img src="{{ 'assets/images/thumb/noisy-signal.jpg' | relative_url }}" alt="Image 2" style="width: 100%; border-radius: 8px;" />
+    </a>
+    <div style="margin-top: 0.5rem;">Typical signal on oscilloscope (purple lines): weak modulation and strong jumps due to low-frequency noise</div>
+  </div>
+
+
+   <div style="width: 150px; text-align: center;">
+    <a href="{{ 'assets/images/full/recording-spectra.jpg' | relative_url }}">
+      <img src="{{ 'assets/images/thumb/recording-spectra.jpg' | relative_url }}" alt="Image 2" style="width: 100%; border-radius: 8px;" />
+    </a>
+    <div style="margin-top: 0.5rem;">Automatic acquisition of a micropendulum spectra</div>
+  </div>
+  
+</div>
 
   
 
-</div>
+
 
