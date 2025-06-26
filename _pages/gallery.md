@@ -13,11 +13,12 @@ math: true
 <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: center;">
 
   <div style="width: 200px; text-align: center;">
-    <a href="{{ 'assets/images/full/openscad 3 pend.jpg' | relative_url }}">
-      <img src="{{ 'assets/images/thumb/openscad 3 pend.jpg' | relative_url }}" alt="Image 2" style="width: 100%; border-radius: 8px;" />
+    <a href="{{ 'assets/images/full/openscad 3 pend.png' | relative_url }}">
+      <img src="{{ 'assets/images/thumb/openscad 3 pend.png' | relative_url }}" alt="Image 2" style="width: 100%; border-radius: 8px;" />
     </a>
     <div style="margin-top: 0.5rem;">openSCAD model for pendulums with $\ell=-1,0,+1$</div>
   </div>
+
 
   <div style="width: 200px; text-align: center;">
     <a href="{{ 'assets/images/full/prusa 45deg.jpg' | relative_url }}">
@@ -25,12 +26,22 @@ math: true
     </a>
     <div style="margin-top: 0.5rem;">1:500 scale model printed with Prusa SL1</div>
   </div>
+
+
+  <div style="width: 200px; text-align: center;">
+    <a href="{{ 'assets/images/full/prusa 3 pend.jpg' | relative_url }}">
+      <img src="{{ 'assets/images/thumb/prusa 3 pend.jpg' | relative_url }}" alt="Image 2" style="width: 100%; border-radius: 8px;" />
+    </a>
+    <div style="margin-top: 0.5rem;">1:500 scale Prusa SL1 model of $\ell=-1,0,+1$ pendulums</div>
+  </div>
+  
 </div>
 
 
-<!--
+
 ### Sample fabrication at VULRC (Lithuania)
 
+<!--
 <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: center;">
   
   <div style="width: 200px; text-align: center;">
