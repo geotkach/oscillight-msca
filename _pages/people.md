@@ -17,7 +17,7 @@ toc: false
       Laboratoire Ondes et Matière d'Aquitaine<br>
       Université de Bordeaux<br>
       Talence, France<br>
-      <a href="mailto:georgiytkachenko@gmail.com ">georgiytkachenko@gmail.com </a><br>
+      <a href="mailto:georgiy.tkachenko@proton.me ">georgiy.tkachenko@proton.me </a><br>
       <a href="https://scholar.google.co.uk/citations?user=WB9PHl4AAAAJ&hl=en">Google Scholar</a> · 
       <a href="https://orcid.org/0000-0003-0958-2548">ORCID</a>
     </div>
